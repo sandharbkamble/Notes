@@ -1,1 +1,53 @@
 https://youtu.be/fmX84zu-5gs?si=CQu8u67_fiCJc8BQ
+
+Java, code, testing, deployment(CI/CD), BigData handling, Scalable systems
+
+Rust is good for memory management so we will switch to Rust
+
+Java - OOPS
+
+Java is compiled and intepreted language.
+
+There are 2 runtimes: 1. Compiled time & Run time
+
+COMPILE TIME:
+source.java ---> Compiler [JavaC] (Java compiler) (Converts to bytecode)---> ByteCode
+
+ByteCode is platform independent code and needs to be executed by JVM.
+
+Different JVM for different operating systems
+
+RUN TIME:
+ByteCode ---> Java Virtual Machine (JVM) ---> Machine code
+
+JVM is a code which converts ByteCode to Machine code
+
+Extension of ByteCode is abc.class
+
+------------------------------------------
+
+Components of JVM:
+
+1. Class Loader - It is responsible fot dynamically loading Java classes. With
+the help of class path, it scans all the classes. There are three steps: Loading, Initializing and Linking.
+
+2. ByteCodeVerifier - inspect and validate Java bytecode before it is executed, 
+ensuring that the code adheres to the JVM specification and cannot compromise 
+the integrity or security of the system.
+
+3. JVM language stack - Every thread has its own JVM stack. Stack contains details about 
+local variables, method call info, method parameters, return address
+
+
+Threads: They are workforces in java to run concurrently 
+
+4. Method area - It stores ByteCodes' metadata
+
+5. Register - Storage component. PC register access is faster than RAM and SSD
+
+
+JIT Compiler
+
+It finds hotspots (repetable code) and prevents them from loading into RAM
+multiple times 
+
