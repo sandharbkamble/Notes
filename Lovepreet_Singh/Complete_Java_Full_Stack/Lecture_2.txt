@@ -1,0 +1,59 @@
+https://youtu.be/fmX84zu-5gs?si=2o25HR3P5lskYlky
+
+public class Test{
+
+    public static void main(String args[]) {
+        System.out.println("Hello World");
+    }
+}
+
+Car is a class (We can call class as template)
+
+It has int tyres, int seats as global
+
+drive() function in car class
+
+
+> Car bmw = new Car();
+
+Object of class template is made.
+
+* Running program is called process.
+
+* Program is set of instructions
+
+
+Object goes to memory(stack or heap)(RAM)
+
+Address is stored in hex value
+
+* Variables/functions are stored in stack(LIFO). Every thread has its own stack
+* Heap is accessible by all threads. It is a shared resource. Objects are stored in heap
+
+Garbage collection is responsible for clearing objects in heap at run time
+
+public - Access modifier
+
+static methods can be called anywhere anytime. It doesnt depend on object creation
+
+args means arguments that needs to be taken while running the byte code
+
+String args[] means lists of args as strings to be taken while running byte code by JVM
+
+COMMAND LINE:
+
+javac Test.java  (java compiler convert to bytecode)
+
+java Test 12 45 (JVM converts bytecode to executable code with args parameters)
+
+Data Types:
+int, float, char, double ....
+
+Wrappers(It has primitive data type with added functionalities):
+
+String, Integer
+
+Loops:
+for, while, do while
+
+
