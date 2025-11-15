@@ -1,0 +1,46 @@
+Java Advanced: Optionals, Streams, maps and more
+
+ArrayList, List are interfaces
+
+Map, Hashmap
+
+Optional (helps in removing null pointer exception)
+
+Streams (to parallelize, this is an API)
+maps, filters, forEach
+
+List<Object> sandy = new ArrayList<>();
+// it will store any data type values like : [12, 'S', "Golu"]
+
+List is a wrapper
+
+Collection --> AbstractCollection --> ArrayList --> List
+
+Generics (E)
+
+Interface
+
+Q.Why do we write 
+
+List<Integer> a = new ArrayList<>(); 
+
+and not 
+
+List<Integer> a = new List<>();
+
+Answer:
+
+1. Why not new List<>()?
+
+Because List is an interface, not a class.
+
+In Java:
+
+Interfaces cannot be instantiated.
+
+Only classes can be instantiated.
+
+
+ArrayList, Map, Set, ImmutableList
+
+Optional<Integer> mark = Optional.ofNullable();
