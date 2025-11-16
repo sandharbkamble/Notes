@@ -1,0 +1,50 @@
+Before implementing, check functional requirement 
+
+IRCTC functional requirement
+- Able to login and signup
+- fetch / search trains from A to B
+- Show available seats
+- Book ticket
+- Download ticket
+
+
+LLD:
+
+User entity
+- take username
+- hashed password
+- Tickets List (booked)
+- userID
+
+
+Ticket entity
+- String ticketID
+- String userID
+- String source
+- String destination
+- Datetime travel
+- Train
+
+
+Train entity
+- trainID
+- trainNo
+- DateTime departtime
+- DateTime arrivetime
+- seats booked in a matrix in 1 and 0 (2d list)
+
+
+Service is nothing but business logic to use the entities created
+
+UserBookingService
+- loginUser(User u)
+- signUp(User u)
+- fetchBookings()
+- cancelBooking()
+- bookTicket(String source, String destination)
+
+
+TrainService
+- searchTrain(String source, String destination)
+- getSeatsAvailable(Train t1)
+
